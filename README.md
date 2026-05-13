@@ -4,6 +4,23 @@ This project is a port of the **Vesper Theme**, which I personally use in **Visu
 
 The goal of this port is to bring the same aesthetics, color scheme, and overall visual experience of the Vesper Theme to other environments where it is not natively available.
 
+## 🎨 Theme Structure
+
+This theme follows the **Omarchy theme standard** and includes:
+
+- **colors.toml** - Base color definitions (primary, accent, all 16 ANSI colors)
+- **alacritty.toml** - Alacritty terminal configuration
+- **btop.theme** - System monitor theme
+- **icons.theme** - Icon theme identifier
+- **neovim.lua** - Neovim colorscheme configuration
+- **vscode.json** - VS Code theme settings
+- **waybar.css** - Status bar styling
+- **walker.css** - App launcher styling
+- **mako.ini** - Notification daemon styling
+- **ghostty.conf** - Ghostty terminal configuration
+- **kitty.conf** - Kitty terminal configuration
+- **chromium.theme** - Chromium browser theme
+- **backgrounds/** - Theme wallpapers
 
 ## Screenshots
 
@@ -21,6 +38,22 @@ The goal of this port is to bring the same aesthetics, color scheme, and overall
 ```bash
 https://github.com/Zheonatan/omarchy-vesper-theme.git
 ```
+
+The theme will be installed to `~/.config/omarchy/themes/vesper/` and can be activated with:
+
+```bash
+omarchy theme set vesper
+```
+
+## 🎯 Supported Applications
+
+This theme provides styling for:
+- **Terminals**: Alacritty, Ghostty, Kitty
+- **Editors**: Neovim, VS Code
+- **System**: Waybar (status bar), Walker (launcher), Mako (notifications)
+- **Utilities**: Btop (system monitor)
+- **Browsers**: Chromium-based browsers
+
 ---
 
 ## Special Thanks
